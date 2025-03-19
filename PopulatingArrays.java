@@ -58,7 +58,6 @@ public final class PopulatingArrays {
         // Initialize variables
         int randNumber = 0;
         int lineCounter = 1;
-        Float sum = 0.0f;
         double average = 0;
 
         // Introduce program to user
@@ -74,6 +73,8 @@ public final class PopulatingArrays {
 
         // Loop process while less than 5 lines made
         do {
+            // Initialize sum
+            Float sum = 0.0f;
 
             // Loop and populate array with random numbers until full
             for (int counter = 0; counter < MAX_SIZE; counter++) {
